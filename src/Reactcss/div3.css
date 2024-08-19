@@ -1,0 +1,53 @@
+.watch{
+	width: 100%;
+	height: 82svh;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding: 4% 0;
+	z-index: 40;
+}
+.left_matter{
+	width: 50%;
+	height: 100%;
+	color: white;
+	align-content: center;
+	margin-left: 10%;
+}
+.left_matter h1{
+	font-size: 50px;
+	font-weight: 900;
+}
+.left_matter p{
+	font-size: 24px;
+}
+
+.macframe{
+	margin-right: 10%;
+	width: 50%;
+	height:100%;
+	position: relative;
+	z-index: 100;
+}
+.macframe img{
+	z-index: -50;
+}
+.mac_video{
+	position: absolute;
+	width: 65%;
+	height: 49%;
+	/* background-color: pink; */
+	left: 17.1%;
+	top: 12%;
+	z-index: -100;
+
+}
+.macframe video{
+	z-index: 45;
+}
+
+@media screen and (max-width:320px){
+	.macframe{
+		display: none;
+	}
+}
