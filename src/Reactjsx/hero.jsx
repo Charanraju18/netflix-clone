@@ -14,7 +14,7 @@ import logo from "../assets/netflixlogo.png";
 function Hero() {
   const getStarted = () => {
     console.log("LOGGED IN");
-  };
+  };  
   return (
     <>
       <div className="div1">
